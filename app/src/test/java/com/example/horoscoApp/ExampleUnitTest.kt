@@ -1,4 +1,4 @@
-package com.example.intermedioappkottlin
+package com.example.horoscoApp
 
 import org.junit.Test
 

@@ -1,16 +1,17 @@
-package com.example.intermedioappkottlin.ui.luck
+package com.example.horoscoApp.ui.palmistry
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.intermedioappkottlin.R
-import com.example.intermedioappkottlin.databinding.FragmentHoroscopefragmentBinding
-import com.example.intermedioappkottlin.databinding.FragmentLuckBinding
+import com.example.intermedioappkottlin.databinding.FragmentPalmistryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-class LuckFragment : Fragment() {
-    private var _binding : FragmentLuckBinding? = null
+
+@AndroidEntryPoint
+class PalmistryFragment : Fragment() {
+    private var _binding : FragmentPalmistryBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -18,10 +19,8 @@ class LuckFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        _binding = FragmentLuckBinding.inflate(layoutInflater,container, false)
+        _binding = FragmentPalmistryBinding.inflate(layoutInflater, container, false)
 
         return binding.root
-
     }
-
 }

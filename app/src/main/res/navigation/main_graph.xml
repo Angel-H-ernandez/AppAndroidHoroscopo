@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/luckFragment"
-        android:name="com.example.intermedioappkottlin.ui.luck.LuckFragment"
+        android:name="com.example.horoscoApp.ui.luck.LuckFragment"
         android:label="fragment_luck"
         tools:layout="@layout/fragment_luck" />
     <fragment
         android:id="@+id/horoscopefragment"
-        android:name="com.example.intermedioappkottlin.ui.horoscopo.Horoscopefragment"
+        android:name="com.example.horoscoApp.ui.horoscopo.Horoscopefragment"
         android:label="fragment_horoscopefragment"
         tools:layout="@layout/fragment_horoscopefragment" />
     <fragment
         android:id="@+id/palmistryFragment2"
-        android:name="com.example.intermedioappkottlin.ui.palmistry.PalmistryFragment"
+        android:name="com.example.horoscoApp.ui.palmistry.PalmistryFragment"
         android:label="fragment_palmistry"
         tools:layout="@layout/fragment_palmistry" />
 </navigation>

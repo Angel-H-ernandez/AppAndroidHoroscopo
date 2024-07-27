@@ -1,4 +1,4 @@
-package com.example.intermedioappkottlin.ui.home
+package com.example.horoscoApp.ui.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,8 +6,12 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.intermedioappkottlin.R
-import com.example.intermedioappkottlin.databinding.ActivityMainBinding
 
+
+import com.example.intermedioappkottlin.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
     private lateinit var binding : ActivityMainBinding

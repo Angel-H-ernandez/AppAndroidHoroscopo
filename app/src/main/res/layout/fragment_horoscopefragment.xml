@@ -4,7 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primary"
-    tools:context=".ui.horoscopo.Horoscopefragment">
+    tools:context="com.example.horoscoApp.ui.horoscopo.Horoscopefragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvHoroscope">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 
 

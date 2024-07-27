@@ -10,10 +10,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name="com.example.horoscoApp.HoroscoApp"
         android:theme="@style/Theme.IntermedioAppKottlin"
         tools:targetApi="31">
         <activity
-            android:name=".ui.home.MainActivity"
+            android:name="com.example.horoscoApp.ui.home.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
