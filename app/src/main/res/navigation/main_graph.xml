@@ -14,10 +14,19 @@
         android:id="@+id/horoscopefragment"
         android:name="com.example.horoscoApp.ui.horoscopo.Horoscopefragment"
         android:label="fragment_horoscopefragment"
-        tools:layout="@layout/fragment_horoscopefragment" />
+        tools:layout="@layout/fragment_horoscopefragment" >
+        <action
+            android:id="@+id/action_horoscopefragment_to_horoscopeDetailActivity"
+            app:destination="@id/horoscopeDetailActivity" />
+    </fragment>
     <fragment
         android:id="@+id/palmistryFragment2"
         android:name="com.example.horoscoApp.ui.palmistry.PalmistryFragment"
         android:label="fragment_palmistry"
         tools:layout="@layout/fragment_palmistry" />
+    <activity
+        android:id="@+id/horoscopeDetailActivity"
+        android:name="com.example.horoscoApp.ui.detail.HoroscopeDetailActivity"
+        android:label="activity_horoscope_detail"
+        tools:layout="@layout/activity_horoscope_detail" />
 </navigation>
