@@ -9,11 +9,22 @@
     <FrameLayout
         android:layout_width="0dp"
         android:id="@+id/toolbar"
+
         android:background="@color/primaryDark"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_height="?attr/actionBarSize">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Horosocopos"
+            style="@style/Title"
+            >
+
+        </TextView>
 
     </FrameLayout>
 
@@ -23,6 +34,7 @@
         android:name="androidx.navigation.fragment.NavHostFragment"
         app:navGraph = "@navigation/main_graph"
         app:defaultNavHost = "true"
+
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
